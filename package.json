@@ -10,7 +10,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack"
+    "dev": "webpack",
+    "dev2": "npx webpack --mode development ./src/inde.js --output ./dist/main.js",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
   },
   "author": "",
   "license": "ISC"
